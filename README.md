@@ -6,21 +6,24 @@ Thanks for taking the time to complete our front-end test. You should spend no m
 
 ## The task
 
-We would like you to build a web application that allows a user to select dishes for two diners from a supplied menu at a restaurant that has some rules for what an acceptable order is.
+We would like you to build a web application.
+- The application will allow one user to select dishes on behalf of two diners.
+- The application will present a menu that will be provided and may later require adjustment by a restaurant.
+- The application will enforce some restrictions provided by the restaurant. (see [#rules](#rules))
 
-We've prepared a simple data file which contains a bunch of cuisines and there prices to get you started.
+We've prepared a simple data file which contains an example menu with prices to help get you started.
 
 Feel free to use any scaffold for example: 
 
 - http://expressjs.com/en/starter/generator.html 
 - https://github.com/facebook/create-react-app
 
-
 Please write as clean and maintainable code as possible, and make sure that it's covered by test cases.
 
 
 ## Rules
 
+_To recap, you will build an interface that allows a user to select dishes for a fixed party of **two diners**._
 This restaurant unfortunately has a number of rules about the meals that can be ordered.
 
 - Each person must have at least two courses, one of which must be a main.
